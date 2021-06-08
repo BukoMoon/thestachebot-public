@@ -1,0 +1,19 @@
+{
+    "data": {
+        "names": ["Philippe Senderos", "Jens Lehmann", "Johan Djourou", "Gaël Clichy", "Cesc Fàbregas", "José Antonio Reyes", "Robin van Persie", "Arsène Wenger"],
+        "status": {
+            "music": [
+                "“Thriller” by Michael Jackson", "“Uptown Funk” by Mark Ronson and Bruno Mars", "“Don’t Stop Believing” by Journey", 
+                "“Sorry” by Justin Bieber", "“No Scrubs” by TLC", "‘My Boo’ – Ghost Town DJs", "‘Adorn’ – Miguel", "‘Can't Feel My Face’ – The Weeknd",
+                "‘Pony’ – Ginuwine", "‘No Diggity’ – Blackstreet", "Boyz II Men: ‘On Bended Knee’"
+            ],
+            "game": [
+                "League of Legends", "Grand Theft Auto", "Apex Legends", "Final Fantasy XIV", "Call of Duty: Cold War", "Valorant", "Disco Elysium"
+            ],
+            "watch": [
+                "Game of Thrones", "Breaking Bad", "Mr. Robot", "Agent Carter", "12 Monkeys", "Westworld", "The Boys", "Silicon Valley"
+            ]
+        },
+        "affirmations": ["Oooh yeah! Gimme another.", "That one was pretty good.", "Yeah, not bad."]
+    }   
+}

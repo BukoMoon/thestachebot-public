@@ -1,0 +1,11 @@
+discord.py[voice]
+discord
+requests >= 2.18.8
+zc.lockfile >= 1.2.1
+youtube_dl==2020.11.19
+pip
+PyNaCl
+colorlog
+async_timeout
+asyncio
+twitch-python
