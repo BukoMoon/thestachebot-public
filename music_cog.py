@@ -1,9 +1,9 @@
-from music import YTDLSource, Song, VoiceState, VoiceError, YTDLError
+from music_backend import YTDLSource, Song, VoiceState, VoiceError, YTDLError
 import discord
 import math
 from discord.ext import commands
 
-class music_cog(commands.Cog):
+class music(commands.Cog):
     def __init__(self, bot: commands.Bot):
         self.bot = bot
         self.voice_states = {}

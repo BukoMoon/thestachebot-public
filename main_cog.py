@@ -21,7 +21,7 @@ FAMOUS_NAMES = [
 access_token = ''
 access_month = ''
 
-class main_cog(commands.Cog):
+class main(commands.Cog):
     def __init__(self, client, status, db, affirmations, clientid, secretkey):
         self.clientid = clientid
         self.clientsecret = secretkey
