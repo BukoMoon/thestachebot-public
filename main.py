@@ -10,9 +10,7 @@ from discord.ext import commands
 from discord.ext.commands import bot
 
 
-from music_cog import music
 from main_cog import main
-# from league_cog import league_cog
 
 intents = discord.Intents(messages=True, guilds=True, members=True)
 client = commands.Bot(command_prefix='$', intents=intents)
@@ -35,9 +33,7 @@ def __init__() -> None:
     if discord_debug:
         start_logging()
 
-    client.add_cog(music(client))
     client.add_cog(main(client, status, db, affirmations, discord_clientid, discord_clientsecret))
-    # client.add_cog(league_cog(client, league_api))
 
     client.run(discord_token)
 
