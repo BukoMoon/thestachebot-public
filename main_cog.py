@@ -15,7 +15,7 @@ from datetime import datetime
 
 FAMOUS_NAMES = [
     'Sylvester Stallone', 'Arnold Schwarzenegger', 'Clint Eastwood', 'Professor Akali', 'Dwayne "The Rock" Johnson',
-    'Emma Watson', 'Leonardo DiCaprio', 'Young MA', 'Bobby Shmurda', 'The Booba', 'Jeremiah Cole'
+    'Emma Watson', 'Leonardo DiCaprio', 'Young MA', 'Bobby Shmurda', 'The Booba', 'Jeremiah Cole', 'Hugh Heffner'
 ]
 
 access_token = ''
@@ -77,7 +77,7 @@ class main(commands.Cog):
         channel = self.client.get_channel(805548508345008130)
         embed = discord.Embed(
             title=f'Welcome {member.name}', 
-            description=f'Thanks for joining **{member.guild.name}**! You are now apart of this!',
+            description=f'Thanks for joining **{member.guild.name}**! You are now a part of this!',
             timestamp=datetime.utcnow()
             )
         embed.set_thumbnail(url=member.avatar_url)
